@@ -15,8 +15,17 @@
       "tsconfig": "tsconfig.app.json",
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
-      "styles": ["styles.scss"],
-      "scripts": [],
+      "styles": [
+        "../node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "../node_modules/metismenu/dist/metismenu.min.css",
+        "../src/styles/sb-admin-2.min.css",
+        "../node_modules/font-awesome/css/font-awesome.min.css",
+        "styles.scss"],
+      "scripts": [
+        "../src/assets/js/jquery.min.js",
+        "../node_modules/metismenu/dist/metismenu.min.js",
+        "../src/assets/js/sb-admin-2.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
